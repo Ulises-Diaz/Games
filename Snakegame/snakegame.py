@@ -4,8 +4,8 @@ import pygame
 
 pygame.mixer.init()
 
-#pygame.mixer.music.load("/home/uli/SnakeGame/gaming-background-music-hd.wav")
-#pygame.mixer.music.play(-1) #se reproduce en un bucle 
+pygame.mixer.music.load("/home/uli/Desktop/tec/personal/SnakeGame/gaming-background-music-hd.wav")
+pygame.mixer.music.play(-1) #se reproduce en un bucle 
 
 name = input("1st player name: ")
 name_2 = input("2nd player name: ")
